@@ -44,37 +44,26 @@
 		}
 
 	?>
-<div id="outer">
 
-
-	<div id="login">
+	<div class="login">
 		<form action="../Controller/FazerLogin.php" method="post">
-			
-		<div class = "poet">
-				<label for="email">Email:</label>
-		</div>
-		<div>	
-				<input type="text" name="email">
+		
+		<div class="input">	
+			<label for="email">Email:</label>
+			<input type="text" name="email">
 		</div> 
-		<div class = "poet">
-				<label for="senha">Senha:</label>
-		</div>
-		<div>	
-				<input type="password" name="senha">
+
+		<div class="input">	
+			<label for="senha">Senha:</label>
+			<input type="password" name="senha">
 		</div>
 		<div>    
 				<input type="submit" value="Enviar" class="poet">
 		</div>
-		<br><br><br>		<br><br><br><br>
-<br><br><br><br>
 
 		</form>
 		<a href="./cadastro.php" id="cadastrelink">Não tem Login? Cadastre-se</a>
 	</div>
-
-
-</div>
-
 
 </body>
 </html>

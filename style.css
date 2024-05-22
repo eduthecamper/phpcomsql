@@ -1,50 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-background-size: 500%;
-background: linear-gradient(90deg, rgba(56,6,112,1) 0%, rgba(111,9,121,1) 50%, rgba(188,20,208,1) 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
-#login{ 
-        background-color: blueviolet;
-        align-content: right;;  /* Centraliza verticalmente */
-        height:40%;  
-        width: 60%;          /* Altura da div externa (opcional, ajustável) */
-        border: 1px solid #000;   /* Apenas para visualização */ 
-        
-        
- }
-
- #outer {
-        display: flex;
-        justify-content: center;  /* Centraliza horizontalmente */
-        align-items: center;      /* Centraliza verticalmente */
-        height: 97vh;            /* Faz a div ocupar a altura total da tela */
-        width: 98vw;             /* Faz a div ocupar a largura total da tela */
-      }
-
-form {
-        width: 50%;
-      margin: 0 auto;
+.login{
+    align-self: center;
+    padding: 2.5%;
 }
-
-a:link {
-    border-color: black;
-   }
-   
-   a:hover {
-    text-decoration: underline;
-   }
-
-
-.poet{
-                font-family: "Poetsen One", sans-serif;
-                font-weight: 400;
-                font-style: normal;      
-}
-
-#cadastrelink {
-        text-align: center;
-        text-justify: auto;
-        vertical-align: bottom;
-}
-
